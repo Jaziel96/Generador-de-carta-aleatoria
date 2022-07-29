@@ -1,1 +1,57 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(23, 139, 0);
+  box-sizing: border-box;
+}
+#carta {
+  display: inline-block;
+  margin: auto;
+  height: 200px;
+  width: 250px;
+  background: white;
+  padding: 20px;
+  padding-top: 180px;
+  border-radius: 5px;
+  border: 1px solid black;
+  position: relative;
+}
+.figura-arriba {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 80px;
+}
+.figura-abajo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+  transform: rotate(180deg);
+}
+.numero {
+  position: relative;
+  font-size: 80px;
+  padding-left: 80px;
+  text-align: center;
+}
+.figura-arriba-rojo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 80px;
+  color: red;
+}
+.figura-abajo-rojo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+  transform: rotate(180deg);
+  color: red;
+}
+.numero-rojo {
+  position: relative;
+  font-size: 80px;
+  padding-left: 80px;
+  text-align: center;
+  color: red;
+}
